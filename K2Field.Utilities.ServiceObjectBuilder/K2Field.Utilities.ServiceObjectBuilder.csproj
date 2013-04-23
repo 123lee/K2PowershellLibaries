@@ -75,7 +75,7 @@
     <Compile Include="Deploy\K2RegisterServiceInstance.cs" />
     <Compile Include="Deploy\K2RegisterServiceType.cs" />
     <Compile Include="HelperClasses\FileHelper.cs" />
-    <Compile Include="Build\K2Build.cs" />
+    <Compile Include="K2Build\K2Build.cs" />
     <Compile Include="HelperClasses\GuidHelper.cs" />
     <Compile Include="HelperClasses\K2Helper.cs" />
     <Compile Include="HelperClasses\LogHelper.cs" />
