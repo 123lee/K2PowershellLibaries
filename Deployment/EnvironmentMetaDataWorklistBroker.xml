@@ -20,7 +20,7 @@
 	</Environments>
 	<ServiceTypes>
 		<ServiceType deploy="true" systemName="K2Field.ServiceBrokers.Worklist" guid="635818c1-6c83-4cae-a992-1859a85bed88" displayName="Worklist Service" description="A Service Broker for surfaceing Worklist data" className="SourceCode.SmartObjects.Services.WorklistService.WorklistServiceBroker" assemliesSourcePath=".\ServiceBrokerAssemblies\bin\Debug\*" assembliesTargetPath="{BlackPearlDir}\ServiceBroker\CustomServiceBrokers\Worklist\" serviceTypeAssemblyName="SourceCode.SmartObjects.Services.WorklistService.dll">
-			<ServiceInstance deploy="true" deploySMO="false"  systemName="WorklistService" guid="e74516ea-3bea-4211-ad89-523361239f08" displayName="Worklist Service" description="Worklist services Objects" impersonate="true">
+			<ServiceInstance deploy="true" deploySMO="true"  systemName="WorklistService" guid="e74516ea-3bea-4211-ad89-523361239f08" displayName="Worklist Service" description="Worklist services Objects" impersonate="true">
 				<Environment name="Development">
 					<Config name="Connection String" value="Integrated=True;IsPrimaryLogin=False;Authenticate=True;EncryptedPassword=False;Host=localhost;Port=5252" keyRequired="true" />
 		      <Config name="Impersonate Connection String" value="Integrated=True;IsPrimaryLogin=True;Authenticate=True;EncryptedPassword=True;Host=localhost;Port=5252;WindowsDomain=MyDomain;UserID=SvcAccount;Password=password" keyRequired="true" />

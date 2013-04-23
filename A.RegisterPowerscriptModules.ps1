@@ -1,5 +1,5 @@
 [CmdletBinding()]
-Param($runTimeDir="C:\tfs\K2.Shared",
+Param($runTimeDir="C:\Users\Administrator\Documents\GitHub\K2PowershellLibaries",
 	[bool]$DoNotStop=$false
    )
 

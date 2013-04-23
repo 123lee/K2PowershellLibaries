@@ -1,7 +1,7 @@
 [CmdletBinding()]
 Param(
 	[string]$Environment=$null,
-	[string]$ManifestFilePath="C:\github\K2PowershellLibaries\K2PowershellLibaries\K2PowershellLibaries\Deployment\",
+	[string]$ManifestFilePath="C:\Users\Administrator\Documents\GitHub\K2PowershellLibaries\Deployment\",
 	[string]$ManifestFileName="EnvironmentMetaDataWorklistBroker.xml",
 	[bool]$RestartK2Server=$true ,
 	[bool]$DoNotStop=$false

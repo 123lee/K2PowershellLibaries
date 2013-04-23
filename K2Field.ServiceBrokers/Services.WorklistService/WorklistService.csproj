@@ -54,10 +54,8 @@
     <Reference Include="SourceCode.HostClientAPI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=x86">
       <Private>False</Private>
     </Reference>
-    <Reference Include="SourceCode.SmartObjects.Services.ServiceSDK, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\References\SourceCode.SmartObjects.Services.ServiceSDK.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="SourceCode.SmartObjects.Services.ServiceSDK">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\K2 blackpearl\Host Server\Bin\SourceCode.SmartObjects.Services.ServiceSDK.dll</HintPath>
     </Reference>
     <Reference Include="SourceCode.Workflow.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=x86">
       <Private>False</Private>
